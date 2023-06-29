@@ -1,0 +1,19 @@
+package main
+
+import "fmt"
+
+func main() {
+    var numero1, numero2 int
+
+    fmt.Print("Digite o primeiro número: ")
+    fmt.Scan(&numero1)
+
+    fmt.Print("Digite o segundo número: ")
+    fmt.Scan(&numero2)
+
+    if numero1 > numero2 {
+        fmt.Println("O maior número é:", numero1)
+    } else {
+        fmt.Println("O maior número é:", numero2)
+    }
+}
